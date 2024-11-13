@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #4e8d58, #74a881);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+
+input[type="text"], 
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #a6c8b2;
+    border-radius: 8px;
+    background-color: #e6f4e9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; 
+}
+
+
+input[type="text"]:focus, 
+input[type="number"]:focus {
+    border-color: #4e8d58;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: calc(100% - 20px); 
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-sizing: border-box; 
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #004494;
+    transform: translateY(1px);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6f4e9;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #f1f1f1;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #a6c8b2;
+    margin: 20px 0;
+}
+
+p {
+    margin: 8px 0;
+}
